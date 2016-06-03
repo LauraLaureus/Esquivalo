@@ -91,7 +91,6 @@ void Timer(int v){
     naveY = posY;
     naveY *= -1;
     
-    //printf("%d , %d : %d \n", posX, posY,v);
     
     for (int i = 0; i < nBolas; i++){
         float rand = aleatorio(generador);
