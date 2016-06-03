@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277CBB9A1D001D310092A9DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 277CBB991D001D310092A9DA /* main.cpp */; };
+		277CBBA11D001D8B0092A9DA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277CBBA01D001D8B0092A9DA /* OpenGL.framework */; };
+		277CBBA31D001D920092A9DA /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277CBBA21D001D920092A9DA /* GLUT.framework */; };
+		277CBBBC1D0021240092A9DA /* liburg_cpp.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 277CBBBB1D0021240092A9DA /* liburg_cpp.so */; };
+		27E73EFC1D0170D7008503AE /* Connection_information.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27E73EFA1D0170D7008503AE /* Connection_information.cpp */; };
+		27E73EFF1D0170EC008503AE /* LaserManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27E73EFD1D0170EC008503AE /* LaserManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		277CBB941D001D310092A9DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		277CBB961D001D310092A9DA /* Esquivalo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Esquivalo; sourceTree = BUILT_PRODUCTS_DIR; };
+		277CBB991D001D310092A9DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		277CBBA01D001D8B0092A9DA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		277CBBA21D001D920092A9DA /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		277CBBB11D0020DF0092A9DA /* urg_connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_connection.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_connection.h"; sourceTree = "<group>"; };
+		277CBBB21D0020DF0092A9DA /* urg_debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_debug.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_debug.h"; sourceTree = "<group>"; };
+		277CBBB31D0020DF0092A9DA /* urg_detect_os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_detect_os.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_detect_os.h"; sourceTree = "<group>"; };
+		277CBBB41D0020DF0092A9DA /* urg_errno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_errno.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_errno.h"; sourceTree = "<group>"; };
+		277CBBB51D0020DF0092A9DA /* urg_ring_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_ring_buffer.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_ring_buffer.h"; sourceTree = "<group>"; };
+		277CBBB61D0020DF0092A9DA /* urg_sensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_sensor.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_sensor.h"; sourceTree = "<group>"; };
+		277CBBB71D0020DF0092A9DA /* urg_serial_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_serial_utils.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_serial_utils.h"; sourceTree = "<group>"; };
+		277CBBB81D0020DF0092A9DA /* urg_serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_serial.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_serial.h"; sourceTree = "<group>"; };
+		277CBBB91D0020DF0092A9DA /* urg_tcpclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_tcpclient.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_tcpclient.h"; sourceTree = "<group>"; };
+		277CBBBA1D0020DF0092A9DA /* urg_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = urg_utils.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/c/urg_utils.h"; sourceTree = "<group>"; };
+		277CBBBB1D0021240092A9DA /* liburg_cpp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liburg_cpp.so; path = "../LaserLibrary/lib/urg_library-1.2.0/src/liburg_cpp.so"; sourceTree = "<group>"; };
+		27E73EF51D01708D008503AE /* detect_os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = detect_os.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/cpp/detect_os.h"; sourceTree = "<group>"; };
+		27E73EF61D01708D008503AE /* Lidar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lidar.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/cpp/Lidar.h"; sourceTree = "<group>"; };
+		27E73EF71D01708D008503AE /* math_utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = math_utilities.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/cpp/math_utilities.h"; sourceTree = "<group>"; };
+		27E73EF81D01708D008503AE /* ticks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ticks.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/cpp/ticks.h"; sourceTree = "<group>"; };
+		27E73EF91D01708D008503AE /* Urg_driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Urg_driver.h; path = "../../LaserLibrary/lib/urg_library-1.2.0/include/cpp/Urg_driver.h"; sourceTree = "<group>"; };
+		27E73EFA1D0170D7008503AE /* Connection_information.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Connection_information.cpp; path = ../../GetTheBall/Connection_information.cpp; sourceTree = "<group>"; };
+		27E73EFB1D0170D7008503AE /* Connection_information.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connection_information.h; path = ../../GetTheBall/Connection_information.h; sourceTree = "<group>"; };
+		27E73EFD1D0170EC008503AE /* LaserManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LaserManager.cpp; path = ../../GetTheBall/LaserManager.cpp; sourceTree = "<group>"; };
+		27E73EFE1D0170EC008503AE /* LaserManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LaserManager.hpp; path = ../../GetTheBall/LaserManager.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277CBB931D001D310092A9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277CBBA31D001D920092A9DA /* GLUT.framework in Frameworks */,
+				277CBBA11D001D8B0092A9DA /* OpenGL.framework in Frameworks */,
+				277CBBBC1D0021240092A9DA /* liburg_cpp.so in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277CBB8D1D001D310092A9DA = {
+			isa = PBXGroup;
+			children = (
+				277CBBBB1D0021240092A9DA /* liburg_cpp.so */,
+				277CBBA21D001D920092A9DA /* GLUT.framework */,
+				277CBBA01D001D8B0092A9DA /* OpenGL.framework */,
+				277CBBAF1D0020860092A9DA /* New Group */,
+				277CBB971D001D310092A9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277CBB971D001D310092A9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277CBB961D001D310092A9DA /* Esquivalo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277CBB981D001D310092A9DA /* Esquivalo */ = {
+			isa = PBXGroup;
+			children = (
+				277CBBB01D0020990092A9DA /* Laser */,
+				277CBB991D001D310092A9DA /* main.cpp */,
+			);
+			path = Esquivalo;
+			sourceTree = "<group>";
+		};
+		277CBBAF1D0020860092A9DA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				277CBB981D001D310092A9DA /* Esquivalo */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		277CBBB01D0020990092A9DA /* Laser */ = {
+			isa = PBXGroup;
+			children = (
+				277CBBB11D0020DF0092A9DA /* urg_connection.h */,
+				277CBBB21D0020DF0092A9DA /* urg_debug.h */,
+				277CBBB31D0020DF0092A9DA /* urg_detect_os.h */,
+				277CBBB41D0020DF0092A9DA /* urg_errno.h */,
+				277CBBB51D0020DF0092A9DA /* urg_ring_buffer.h */,
+				277CBBB61D0020DF0092A9DA /* urg_sensor.h */,
+				277CBBB71D0020DF0092A9DA /* urg_serial_utils.h */,
+				277CBBB81D0020DF0092A9DA /* urg_serial.h */,
+				277CBBB91D0020DF0092A9DA /* urg_tcpclient.h */,
+				277CBBBA1D0020DF0092A9DA /* urg_utils.h */,
+				27E73EFD1D0170EC008503AE /* LaserManager.cpp */,
+				27E73EFE1D0170EC008503AE /* LaserManager.hpp */,
+				27E73EFA1D0170D7008503AE /* Connection_information.cpp */,
+				27E73EFB1D0170D7008503AE /* Connection_information.h */,
+				27E73EF51D01708D008503AE /* detect_os.h */,
+				27E73EF61D01708D008503AE /* Lidar.h */,
+				27E73EF71D01708D008503AE /* math_utilities.h */,
+				27E73EF81D01708D008503AE /* ticks.h */,
+				27E73EF91D01708D008503AE /* Urg_driver.h */,
+			);
+			name = Laser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277CBB951D001D310092A9DA /* Esquivalo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277CBB9D1D001D310092A9DA /* Build configuration list for PBXNativeTarget "Esquivalo" */;
+			buildPhases = (
+				277CBB921D001D310092A9DA /* Sources */,
+				277CBB931D001D310092A9DA /* Frameworks */,
+				277CBB941D001D310092A9DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Esquivalo;
+			productName = Esquivalo;
+			productReference = 277CBB961D001D310092A9DA /* Esquivalo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277CBB8E1D001D310092A9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Laura del Pino Díaz";
+				TargetAttributes = {
+					277CBB951D001D310092A9DA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 277CBB911D001D310092A9DA /* Build configuration list for PBXProject "Esquivalo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 277CBB8D1D001D310092A9DA;
+			productRefGroup = 277CBB971D001D310092A9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277CBB951D001D310092A9DA /* Esquivalo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277CBB921D001D310092A9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E73EFC1D0170D7008503AE /* Connection_information.cpp in Sources */,
+				27E73EFF1D0170EC008503AE /* LaserManager.cpp in Sources */,
+				277CBB9A1D001D310092A9DA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		277CBB9B1D001D310092A9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		277CBB9C1D001D310092A9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		277CBB9E1D001D310092A9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		277CBB9F1D001D310092A9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277CBB911D001D310092A9DA /* Build configuration list for PBXProject "Esquivalo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277CBB9B1D001D310092A9DA /* Debug */,
+				277CBB9C1D001D310092A9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277CBB9D1D001D310092A9DA /* Build configuration list for PBXNativeTarget "Esquivalo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277CBB9E1D001D310092A9DA /* Debug */,
+				277CBB9F1D001D310092A9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277CBB8E1D001D310092A9DA /* Project object */;
+}
